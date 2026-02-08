@@ -163,7 +163,7 @@ def generate_custom_password():
     random3 = ''.join(random.choice(characters) for _ in range(len3)).upper()
     
     # Format: {RANDOM}_{RANDOM}_BY_DANGER_{RANDOM}
-    return f"{random1}_{random2}_BY_DANGER_{random3}"
+    return f"{random1}_{random2}_BY_STARK{random3}"
 
 # ---------------- Account creation (register/token) ---------------- #
 def create_single_account(args):
