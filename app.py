@@ -311,7 +311,7 @@ def Major_Regsiter(access_token, open_id, field, uid, password, region, name_pre
         "Content-Type": "application/x-www-form-urlencoded",
         "Expect": "100-continue",
         "Host": "loginbp.ggpolarbear.com",
-        "ReleaseVersion": "OB51",
+        "ReleaseVersion": "OB52",
         "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; ASUS_I005DA Build/PI)",
         "X-GA": "v1 1",
         "X-Unity-Version": "2018.4.11f1"
@@ -364,7 +364,7 @@ def chooseregion(data_bytes, jwt_token):
         'Authorization': f"Bearer {jwt_token}",
         'X-Unity-Version': "2018.4.11f1",
         'X-GA': "v1 1",
-        'ReleaseVersion': "OB51"
+        'ReleaseVersion': "OB52"
     }
     try:
         session = get_session()
@@ -389,7 +389,7 @@ def login(uid, password, access_token, open_id, response_hex, status_code, name,
         "Content-Type": "application/x-www-form-urlencoded",
         "Expect": "100-continue",
         "Host": "loginbp.ggpolarbear.com",
-        "ReleaseVersion": "OB51",
+        "ReleaseVersion": "OB52",
         "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; ASUS_I005DA Build/PI)",
         "X-GA": "v1 1",
         "X-Unity-Version": "2018.4.11f1"
@@ -477,7 +477,7 @@ def login_server(uid, password, access_token, open_id, response, status_code, na
         "Content-Type": "application/x-www-form-urlencoded",
         "Expect": "100-continue",
         "Host": "loginbp.ggpolarbear.com",
-        "ReleaseVersion": "OB51",
+        "ReleaseVersion": "OB52",
         "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; ASUS_I005DA Build/PI)",
         "X-GA": "v1 1",
         "X-Unity-Version": "2018.4.11f1"
@@ -566,7 +566,7 @@ def GET_LOGIN_DATA(JWT_TOKEN, PAYLOAD, region):
         'Authorization': f'Bearer {JWT_TOKEN}',
         'X-Unity-Version': '2018.4.11f1',
         'X-GA': 'v1 1',
-        'ReleaseVersion': 'OB51',
+        'ReleaseVersion': 'OB52',
         'Content-Type': 'application/x-www-form-urlencoded',
         'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 10; G011A Build/PI)',
         'Host': 'clientbp.common.ggpolarbear.com',
